@@ -22,6 +22,8 @@ Each vignette is a standalone `.Rmd` file — open it in RStudio, make sure you 
 =======
 | Brandon C. | [Exploring IMDb Ratings by Genre](exploring_imbd_ratings_by_genre_with_tidyverse.qmd) | tidyverse (dplyr, tidyr, ggplot2, readr) | separate_rows, group_by, summarise, filter, geom_col | [Kaggle](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows?resource=download) |
 
+| Emily E.| [Bechdel Test](emily_elmouaquite_tidyverse_create.Rmd) | dplyr, stringr, ggplot2 | grouped summaries, arrange, mutate, filter, geom_line, str_detect| fivethirtyeight R library |
+
 
 ---
 
