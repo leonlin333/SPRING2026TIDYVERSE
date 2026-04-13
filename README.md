@@ -18,10 +18,10 @@ Each vignette is a standalone `.Rmd` file — open it in RStudio, make sure you 
 | Mark H. | [Student Mental Health & Burnout](student_mental_health_ggplot2.Rmd) | ggplot2 | geom_histogram, geom_boxplot, geom_point, geom_smooth, geom_bar, facet_wrap | [Kaggle](https://www.kaggle.com/datasets/sharmajicoder/student-mental-health-and-burnout) |
 | David C.|[IMF exchange rate](David.C/SPS_Data607_Week9_TidyVerse_DC.Rmd)|tidyr,dplyr,tideverse,ggplot2|pivot_longer,geom_line,mutate,filter,theme|[IMF](https://www.imf.org/external/np/fin/data/rms_mth.aspx?SelectDate=2026-01-01&reportType=REP)|
 | Zihao Yu | [zihao_iris_vignette.Rmd](zihao_iris_vignette.Rmd) | dplyr, ggplot2 | pivot_longer, grouped summaries, boxplots, scatter plot|  [Kaggle](https://www.kaggle.com/datasets/uciml/iris?resource=download) |
-
-
-=======
+| Emily E.| [Bechdel Test](emily_elmouaquite_tidyverse_create.Rmd) | dplyr, stringr, ggplot2 | grouped summaries, arrange, mutate, filter, geom_line, str_detect| fivethirtyeight R library |
+| Zihao Yu | [zihao_iris_vignette.Rmd](zihao_iris_vignette.Rmd) | dplyr, ggplot2 | pivot_longer, grouped summaries, boxplots, scatter plot|  [Kaggle](https://www.kaggle.com/datasets/uciml/iris?resource=download) |
 | Brandon C. | [Exploring IMDb Ratings by Genre](exploring_imbd_ratings_by_genre_with_tidyverse.qmd) | tidyverse (dplyr, tidyr, ggplot2, readr) | separate_rows, group_by, summarise, filter, geom_col | [Kaggle](https://www.kaggle.com/datasets/harshitshankhdhar/imdb-dataset-of-top-1000-movies-and-tv-shows?resource=download) |
+|Qingquan L. | [Exploring College Major Earnings](https://github.com/qingquan-li/Data607/tree/main/project-Tidyverse) | dplyr, ggplot2, tidyr | filter, mutate, group_by/summarize; bar and scatter plots; pivot_longer/pivot_wider | [college_recent_grads (fivethirtyeight)](https://github.com/fivethirtyeight/data/blob/master/college-majors/recent-grads.csv) |
 
 
 ---
@@ -108,12 +108,15 @@ Initial Description and Link:
 Revision/Addition Description and Link:
 
 # Dylan G
-Initial Description and Link:
+Initial Description and Link: 
+Vignette showing dplyr functions and ggplot usage through a Global Grocery Inflation (2025/2026) dataset.
+Kaggle Link: https://www.kaggle.com/datasets/waddahali/global-grocery-inflation-20252026
+Github Raw Link: https://raw.githubusercontent.com/DylanGoldJ/SPRING2026TIDYVERSE/refs/heads/main/FoodData.csv
 
 Revision/Addition Description and Link:
 
 # Emily E
-Initial Description and Link:
+Initial Description and Link: Dplyr, Ggplot2 and Stringr used with movie data from 1970 - 2013. Analyzes whether movies passed or failed the Bechdel Test. Data is from the fivethirtyeight R library. [Vignette](emily_el_mouaquite_tidyverse_create.Rmd)
 
 Revision/Addition Description and Link:
 
@@ -214,9 +217,15 @@ Initial Description and Link:
 Revision/Addition Description and Link:
 
 # Long Fei L
-Initial Description and Link:
+Initial Description and Link: [LongLinTidyVerseCreate.qmd](LongLinTidyVerseCreate.qmd)
 
-Revision/Addition Description and Link:
+This vignette shows how to use Tidyverse packages like `dplyr` and `ggplot2` to organize data and display findings in a chart. The chosen data source named `global grocery inflation` is from Kaggle.
+
+Dataset: [Global Grocery Inflation (2025/2026) (Kaggle)](https://www.kaggle.com/datasets/waddahali/global-grocery-inflation-20252026/data?select=breakfast+basket.csv)
+TidyVerse Packages & Functions Used:
+  * `readr`: `read_csv()`
+  * `dplyr`: `select`, `filter`, `mutate()`, `group_by()`, `summarize()`
+  * `ggplot2`: `ggplot()`
 
 # Madina K
 Initial Description and Link:
@@ -261,6 +270,28 @@ Revision/Addition Description and Link:
 # Muhammad S
 Initial Description and Link:
 
+### Vignette Description:
+The vignette submitted is titled `Muhammad_Khan_Tidyverse_Vignette.qmd`. It demonstrates how TidyVerse packages (`dplyr`, `tidyr`, and `ggplot2`) can be used to clean, transform, and analyze a real-world dataset in R.
+
+### Dataset Description and Link:
+The dataset used is the **Netflix Movies and TV Shows dataset** from Kaggle. It includes information such as title, content type, country, release year, rating, duration, and genre categories.
+
+Dataset Link: https://www.kaggle.com/datasets/shivamb/netflix-shows
+
+### TidyVerse Functions Used:
+This vignette uses functions from `readr`, `dplyr`, `tidyr`, and `ggplot2`, including:
+- `read_csv()`
+- `select()`
+- `drop_na()`
+- `count()`
+- `separate_rows()`
+- `group_by()`
+- `slice_max()`
+- `ggplot()`
+
+### Summary of Analysis:
+The vignette focuses on the `listed_in` column, which contains multiple genres in a single field. Using `separate_rows()`, the data is transformed into a tidy format, allowing genre-level analysis. The data is then summarized to identify the most common genres and compare distributions between Movies and TV Shows. Visualizations are created to highlight these patterns.
+
 Revision/Addition Description and Link:
 
 # Nana Kwasi D
@@ -276,12 +307,17 @@ Revision/Addition Description and Link:
 # Qingquan L
 Initial Description and Link:
 
+- Title: Exploring College Major Earnings with dplyr, ggplot2, and tidyr
+- Data set: fivethirtyeight - college_recent_grads
+- Code: https://github.com/qingquan-li/Data607/blob/main/project-Tidyverse/qingquan_li_tidyverse_vignette.Rmd
+- HTML Preview: https://htmlpreview.github.io/?https://github.com/qingquan-li/Data607/blob/main/project-Tidyverse/qingquan_li_tidyverse_vignette.html
+
 Revision/Addition Description and Link:
 
 # Radzhana R
-Initial Description and Link:
+Initial Description and Link: https://www.kaggle.com/datasets/thedevastator/the-nutritional-content-of-food-a-comprehensive?resource=download
 
-Revision/Addition Description and Link:
+Revision/Addition Description and Link: Name: Nutritional Content Analysis based on USDA DataAuthor: Radzhana Rabdanova Dataset: USDA National Nutrient Database (ABBREV.csv)TidyVerse Packages & Functions Used: * readr: read_csv() dplyr: select(), rename(), filter(), mutate(), arrange() tidyr: drop_na() ggplot2: ggplot(), geom_point(), geom_smooth(), theme_minimal(), labs() Description: This example demonstrates how to import and clean a complex governmental dataset from the USDA. Using the dplyr library, raw variables are filtered and renamed to focus on core macronutrients. The script also showcases ggplot2 to visualize the relationship between calorie density and sugar content, helping to identify nutritional trends across common food items.Example Link: Rabdanova_nutritional_content_of_food.qmd
 
 # Robert G
 Initial Description and Link:
