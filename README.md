@@ -96,6 +96,26 @@ Revision/Addition Description and Link:
 
 # Denise A
 Initial Description and Link:
+**Blood Pressure Analysis**
+**Dataset**
+The Blood Pressure dataset is publicly available and included in this repository:
+•	File: blood_pressure_global_dataset.csv
+•	Source: Kaggle / publicly shared dataset
+•	Description: The Blood Pressure by Age — Global Dataset contains over 8,000 patient records across 80+ countries. It features rich demographic and clinical classifications, including Age_Group, Sex, WHO_Region, and individual blood pressure measurements.
+**Vignette**
+A full example vignette demonstrating TidyVerse capabilities is included:
+•	File: TidyVerse CREATE.qmd
+•	Objective: Clean, summarize, and visualize Blood Pressure Readings by age and sex, as well as by region, to uncover trends and patterns.
+•	Packages Used:
+o	dplyr – Data manipulation (filtering, summarizing, grouping)
+o	tidyr – Data tidying (handling missing values, cleaning data)
+o	ggplot2 – Data visualization (bar plots, line plots, multi-color charts)
+**Highlights**
+•	Rows with missing or “NA” values were excluded for accurate summaries.
+•	Sightings are analyzed by sex, age, and WHO Region.
+•	Visualizations include:
+o	Average Systolic Blood Pressure by Age Group and Sex
+o	Blood Pressure Category per Region
 
 Revision/Addition Description and Link:
 
