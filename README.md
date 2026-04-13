@@ -214,9 +214,15 @@ Initial Description and Link:
 Revision/Addition Description and Link:
 
 # Long Fei L
-Initial Description and Link:
+Initial Description and Link: [LongLinTidyVerseCreate.qmd](LongLinTidyVerseCreate.qmd)
 
-Revision/Addition Description and Link:
+This vignette shows how to use Tidyverse packages like `dplyr` and `ggplot2` to organize data and display findings in a chart. The chosen data source named `global grocery inflation` is from Kaggle.
+
+Dataset: [Global Grocery Inflation (2025/2026) (Kaggle)](https://www.kaggle.com/datasets/waddahali/global-grocery-inflation-20252026/data?select=breakfast+basket.csv)
+TidyVerse Packages & Functions Used:
+  * `readr`: `read_csv()`
+  * `dplyr`: `select`, `filter`, `mutate()`, `group_by()`, `summarize()`
+  * `ggplot2`: `ggplot()`
 
 # Madina K
 Initial Description and Link:
